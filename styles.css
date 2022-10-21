@@ -1,0 +1,132 @@
+html{
+    background-color:  rgb(37, 18, 46);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+      /* footer */
+    position: relative;
+    min-height: 100%;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    /* min-height: 500px;  */
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.calculator{
+    width: 300px;
+    border: 2px black solid;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #808080;
+}
+
+button {
+    border: none;
+    color: black;
+    font-family: inherit;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    background-color: antiquewhite;
+  }
+
+.screen{
+    padding: 5px 20px;
+    border: 2px black solid;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color:antiquewhite ;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
+    min-height: 40px;
+    font-size: 30px;
+}
+
+.previousScreen{
+  font-size: 15px;
+}
+
+.button-Layout{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+.btn {
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    font-size: 15px;
+  }
+
+#dotBtn{
+   font-size: 20px;
+}
+
+.btn:hover {
+    background-color:  rgb(37, 18, 46);
+    color: antiquewhite;
+  }
+  
+.btn:active {
+    background-color:  rgb(37, 18, 46);
+  }
+  
+.btn-red {
+    background-color:  rgb(102, 4, 4);
+    color: antiquewhite;
+  }
+  
+.btn-red:hover {
+    background-color: rgb(37, 18, 46);
+  }
+  
+.btn-red:active {
+    background-color:  rgb(37, 18, 46);
+  }
+
+#operatorBtn{
+  background-color: rgb(59, 59, 37);
+  color: antiquewhite;
+}
+
+#operatorBtn:hover{
+  background-color: rgb(37, 18, 46);
+}
+
+/* FOOTER */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    color: antiquewhite;
+  }
+  
+  .fa-github {
+    color: antiquewhite;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .fa-github:hover {
+    transform: rotate(360deg) scale(1.2);
+  }
+ 
